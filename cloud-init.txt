@@ -1,0 +1,9 @@
+#cloud-config
+package_update: true
+packages:
+- nfs-common
+runcmd:
+- sudo mkdir /db1
+- sudo mkdir /db2
+- sudo mount 192.168.1.53:db1 /db1
+- sudo mount 192.168.2.60:guro_idc_db2 /db2
