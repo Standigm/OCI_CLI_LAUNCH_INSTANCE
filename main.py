@@ -28,7 +28,7 @@ except subprocess.TimeoutExpired:
 print('Wait for Provisioning Instance...')
 time.sleep(240)
 
-# print(outs01)
+# 인스턴스 private ip 확인
 cmd_out = str(outs01)
 instance_id = cmd_out[cmd_out.find('ocid1.instance'):(cmd_out.find('\"image-id\"')-8)]
 oci_instance_get_cmd = 'oci compute instance list-vnics --instance-id ' + instance_id
