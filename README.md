@@ -19,4 +19,6 @@
 * ssh_auhorized_keys
 	* ssh 접속용 public key
 	* key는 tool을 쓰던, 알아서 생성해서 넣으면 된다.
-* 기타 문의 : Minhyeong.lee
+
+## 문의
+* Minhyeong.lee
