@@ -2,7 +2,7 @@
 ## Guide
 * 기본적인 환경설정은 [Python&OCI CLI환경 OCI Compute Instance Provisioning Automation Guide - Standigm Wiki](https://wiki.standigm.com/Python%26OCI_CLI%ED%99%98%EA%B2%BD_OCI_Compute_Instance_Provisioning_Automation_Guide) 을 참고하여 진행한 후 오기 바란다.
 ### 변수 설정
-* Wiki에 이미 설명된 OCID에서는 별도로 설명하지 않는다.
+* Wiki에 이미 설명된 OCID 대해서는 별도로 설명하지 않는다.
 ---
 * public_subnet_id
 	* subnet의 OCID인데, 아마 일반사용자는 변경할 일이 없을 것이다. 
