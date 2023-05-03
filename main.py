@@ -5,7 +5,6 @@ import subprocess
 tenancy_id = 'ocid1.tenancy.oc1..aaaaaaaau7pm7zmesj6g5ceelakgnxsbcflzizstpfau4jqm7g3grbn7nowa'
 compartment_id = 'ocid1.compartment.oc1..aaaaaaaapslmjx7oxwi6tievsu5z3ob7odkxivh6qbqt4y25l6xyvkrhos7q'
 public_subnet_id = 'ocid1.subnet.oc1.ap-seoul-1.aaaaaaaatfn6jhuwxkkd6rlsetpssnyoqo77bwqqbgx7lewbgjgdrvge77ea'
-region_id = 'ocid1.subnet.oc1.ap-seoul-1.aaaaaaaatfn6jhuwxkkd6rlsetpssnyoqo77bwqqbgx7lewbgjgdrvge77ea'
 image_id = 'ocid1.image.oc1.ap-seoul-1.aaaaaaaay56d2cyjvkfjqpk4pgvkqqelyj3zm44qd52jeupcdx4avx5sd4ba'
 av_domain = 'MFEe:AP-SEOUL-1-AD-1'
 
