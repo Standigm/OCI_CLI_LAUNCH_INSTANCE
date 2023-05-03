@@ -44,7 +44,7 @@ except subprocess.TimeoutExpired:
 
 print('Wait for Provisioning Instance...')
 # 머신 provisioning 후 RUNNING state 까지 waiting
-# 일반적은 VM은 BM.GPU.A10.4은 최소 3분30초 가량의 provisioning 시간이 필요하다.
+# BM.GPU.A10.4은 최소 3분30초 가량의 provisioning 시간이 필요하다.
 # VM으로 test 하는 경우 60sec 미만으로 수정하고 test 하면 된다.
 time.sleep(240)
 
