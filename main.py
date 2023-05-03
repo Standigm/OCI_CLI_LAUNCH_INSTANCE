@@ -18,6 +18,10 @@ shape_test = 'VM.Standard2.2'
 shape = 'BM.GPU.A10.4'
 
 ssh_auhorized_keys = 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNmuprd9Lo/3EUncSFkxn4JQB7HsHNVcyik5A8rlURzQxXat09XjvOWU43cPjl69yvwVW1wx+8cQbyZZrLZ+oNG+wDkSpZa6ed4JUESl/fuGmwBpOiyz1/nwr0RUd1Isdh1Fj3IC+mGEau1BidK5XzUv5/Jo4Akn1EoOBUepgKR6sUXemayakCe7aWUUg/TxZJFRbYd5SrLtxfm1mo2r8ZBXF8A/HkO/FLb/rtNbn1WwAYDQBhjjSjzZ238h0I4WjCU3ENiLED0Sd7chzjh1SEuss3Vs3OTkM54m3/aCcT+t0Im4tk4mbg8DElaaKDzt120nHlMonoI0DwW5nY8KiciF+N7/xmKklLCUSmLBPWYD9pkNgr1riUichJt7E8BbbFO3FZJlHyVnw1IM4U3Ylc1oLZIXIFiyfvmCvcqebMxMOlNTsdV0GQTQmpLmTkFEkgvVbzODtiVwb32WEOUUAyAr46Hv1yfqytKlvlkxB3zWUORU5oMEHitToBjpMP4Hk= minhyeonglee@standigms-MacBook.local'
+
+# provisioning 된 머신의 시작 스크립트 파일
+# 필요한 경우 cloud-init 문서를 참고하여 해당파일을 적절히 수정하면 된다.
+# 현재는 satnadigm nfs에 대한 mount 설정만 되어있다.
 user_data_file = 'cloud-init.txt'
 
 # hostname 및 instance 의 label은 hostname + host_count 로 구성된다.
