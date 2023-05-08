@@ -11,7 +11,7 @@ av_domain = 'MFEe:AP-SEOUL-1-AD-1'
 # test시 꼭 shape_test을 사용한다.
 # BM.GPU.A10.4 등의 Baremetel shape은 provisiong에도 시간이 상당히 오래걸리며, Region내 가용자원이 부족한 경우 자원회수 후 재사용에도 상당한 시간이 필요함(30분~1시간)
 # VM.Standard2.2외의 다른 type의 VM으로 test 하여도 된다.
-# 가용 가능한 shape은 oci compute shape list -c ocid1.compartment.oc1..aaaaaaaapslmjx7oxwi6tievsu5z3ob7odkxivh6qbqt4y25l6xyvkrhos7q | grep shape 명령으로 확인 가능하다.
+# 가용 가능한 shape은 oci compute shape list -c {COMPARTMENT_ID} | grep shape 명령으로 확인 가능하다.
 # Shape이 .Flex 로 끝나는 자원은 instance launch시 추가 option이 필요하여 명령어가 달라지므로 사용하지 않는다.
 shape_test = 'VM.Standard2.2'
 shape = 'BM.GPU.A10.4'
