@@ -12,7 +12,7 @@
 	* 사용하려는 머신에 따라 OS dependency가 있는경우가 있다.
 	* oci compute image list --all -c {COMPARTMENT_OCID} | grep -ie display-name -ie ocid1.image 명령으로 사용가능한 이미지의 OCID를 확인할 수 있다.
 	* 원하는 image의 OCID로 교체하면 된다.
-	* 현재 code의 image는 Canonical-Ubuntu-20.04-2023.03.18-0
+	* 현재 code의 image는 Canonical-Ubuntu-22.04-Minimal-2023.01.30-0
 	* debian 계열이 아닌 OS로 변경 시 cloud-init.txt를 변경해야 할 수 있다.
 * av_domain
 	* OCI는 AD가 1개밖에 없으므로 region이 변경되지않는 이상 변경될일이 없다.
