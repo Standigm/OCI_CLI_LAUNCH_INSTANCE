@@ -5,5 +5,11 @@ packages:
 runcmd:
 - sudo mkdir /db1
 - sudo mkdir /db2
-- sudo mount 192.168.1.53:db1 /db1
-- sudo mount 192.168.2.60:guro_idc_db2 /db2
+mounts:
+ - [ 192.168.1.53:/db1, /db1, nfs, nfsvers=3, 0, 0 ]
+ - [ 192.168.2.60:/guro_idc_db2, /db2, nfs, nfsvers=3, 0, 0 ]
+runcmd:
+- sudo dpkg -i cuda-keyring_1.0-1_all.deb
+package_update: true
+packages:
+- cuda
