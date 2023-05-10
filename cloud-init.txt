@@ -11,5 +11,7 @@ mounts:
 runcmd:
 - sudo dpkg -i /db2/data/nvidia/cuda-keyring_1.0-1_all.deb
 package_update: true
-packages:
-- cuda
+# packages:
+# - cuda
+runcmd:
+- sudo apt-get -y install cuda
