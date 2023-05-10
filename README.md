@@ -20,5 +20,8 @@
 	* ssh 접속용 public key
 	* key는 tool을 쓰던, 알아서 생성해서 넣으면 된다.
 
+## cloud-init
+* 11번째줄부터는 cuda 패키지 설치를 위한 내용이므로 gpu 머신이 아닌경우 제거한다.
+
 ## 문의
 * Minhyeong.lee
