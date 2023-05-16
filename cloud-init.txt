@@ -1,7 +1,4 @@
 #cloud-config
-package_update: true
-packages:
-- nfs-common
 runcmd:
 - sudo mkdir /db1
 - sudo mkdir /db2
@@ -10,6 +7,6 @@ mounts:
  - [ 192.168.2.60:/guro_idc_db2, /db2, nfs, nfsvers=3, 0, 0 ]
 runcmd:
 - sudo dpkg -i /db2/data/nvidia/cuda-keyring_1.0-1_all.deb
-package_update: true
-runcmd:
+- sudo apt-get update
 - sudo apt-get -y install cuda
+#package_update: true
